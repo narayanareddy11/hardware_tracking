@@ -1,0 +1,42 @@
+Hardware  Tracking tool up date from  M-Track SETUP
+
+step 1 : Install a LAMP Stack on Ubuntu
+    sudo apt update && sudo apt upgrade
+    sudo apt install apache2
+    sudo apt install mysql-server
+    sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
+    sudo systemctl status apache2
+    or
+    sudo apt-get install lamp-server
+    
+copy : Run applicaiton 
+    'cp -r htdocs/* /opt/lampp/htdocs/'
+    
+setp2: Building blocks of the application 
+
+    'Git_setup' : 
+                git@gitlab.pgre.dell.com:BDCPGRE/hardware-tracking.git'
+                'chmod 777 *'
+                'cp -r htdocs/* /opt/lampp/htdocs/'
+                'sudo -S /opt/lampp/xampp restart'
+    'M-Track Access':
+                'find /home/dell/Downloads/ -name "PartSearchResul*.xls" -type f -delete' 
+                'python hardware_selenium.py $Employee_nameS'
+    'Mysql Database Setup'
+                python backend.py'
+                echo 'mysql database setup  Process is completed  ...'
+    'web-page setup'
+                'php ptest.php'
+                'python php_update.py'
+                'php php_update.php'
+    'Database coverage'
+                'php coverage.php'
+                'python email_formate.py'
+    'Xlsx sheet'
+                'php xlsx_covarage.php'           
+                'python xlsx_covarage.py'
+    'EmaiL Notification'
+                'python email_send.py $Email_Notification'
+    "Archive build output"
+                archiveArtifacts artifacts: '*.xlsx, *html'
+

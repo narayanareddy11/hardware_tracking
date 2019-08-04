@@ -1,0 +1,284 @@
+* {
+   font-family: arial, verdana, helvetica, sans-serif;
+   color: #666;
+   font-size: 15px;
+}
+td {
+   vertical-align:top;
+}
+#container {
+   font-size: 1.75em;
+   margin-left: auto;
+   margin-right: auto;
+   width: 900px;
+   padding: 10px 10px 10px 20px;
+   border: 1px solid #ccc;
+   background: #fff;
+}
+
+#tabnav {
+   height: 25px;
+   padding: 0;
+   margin: 10px 0 5px 0;
+   width: 100%;
+}
+
+#tabnav li {
+   margin: 0;
+   padding: 0;
+   display: inline;
+   list-style-type: none;
+}
+
+#tabnav a:link, #tabnav a:visited {
+   float: left;
+   background: #fff;
+   font-size: 1.7em;
+   font-weight: bold;
+   padding: 2px 15px 2px 0px;
+   margin-right: 4px;
+   text-decoration: none;
+   color: #666;
+}
+
+#tabnav a:hover {
+   color: #c42;
+}
+
+#footer {
+   border-top: 1px dotted #666;
+   clear: both;
+}
+#footer p {
+   text-align:left;
+   font-size: 0.95em;
+   padding: 0em;
+   margin-top: 5px;
+}
+
+p.logo {
+   margin: 0;
+}
+.logo a {
+   font-family: verdana, sans-serif;
+   font-size: 2.7em;
+   text-decoration: none;
+   color: #ccc;
+}
+
+#describe {
+   float:left;
+   width: 250px;
+   font-size: 1.0em;
+   line-height: 1.6em;
+   margin-bottom: 10px;
+}
+#describe h1 {
+   height: 20px;
+   font-size: 1.45em;
+   font-weight: bold;
+   color: #08c;
+   border-bottom: 1px solid #666;
+   width: 210px;
+}
+#describe p {
+   margin:0px 10px 10px 0px;
+}
+#describe li {
+   margin:0px 10px 0px 0px;
+}
+#describe ul {
+   padding-left: 0.6em;
+}
+#describe h1.top {
+   height: 20px;
+   font-size: 1.2em;
+   font-weight: bold;
+   color: #08c;
+   background-color: #08c;
+   border: 0;
+   width: 210px;
+}
+#describe p.prod {
+   font-weight: bold;
+   margin:10px 10px 0px 0px;
+   font-size: 1.1em;
+}
+#describe ul.prod {
+   margin:0 0 0 10px;
+   font-size: 0.9em;
+}
+#content {
+   width: 600px;
+   float:right;
+   margin-right: 0px;
+}
+#content h1.top {
+   height: 20px;
+   font-size: 1.7em;
+   font-weight: bold;
+   color: #08c;
+   border-bottom: 1px dotted #666;
+}
+
+#product h1 {
+   height: 20px;
+   font-size: 1.45em;
+   font-weight: bold;
+   color: #369;
+   color: #08c;
+}
+#product p, #product ul {
+   font-size: 1.1em;
+   line-height: 1.75em;
+}
+
+#boxes {
+   border: 0;
+   margin-top: 1em;
+}
+#boxes p {
+   margin: 5px;
+}
+#boxes h2 {
+   margin: 5px;
+   font-size: 1.45em;
+}
+#boxes .more {
+   display:block;
+}
+#boxes a {
+   text-decoration: none;
+   color: #66f;
+   font-size: 80%;
+}
+#boxes .qimg {
+   float:left;
+   margin: 10px 10px 10px 0;
+}
+#boxes .qtext {
+   margin-left: 85px;
+}
+.q1, .q4 {
+   border-left: 1px dotted #666;
+   float: right;
+   width: 48%;
+   padding-left: 10px;
+}
+.q2, .q3 {
+   float: left;
+   width: 48%;
+}
+.horiz {
+   border-bottom: 1px dotted #666;
+   clear: both;
+}
+
+#statblock {
+   background: transparent;
+   float: right;
+   margin-top: 0;
+   width: 120px;
+   font-size: 0.87em;
+}
+#statblock div.statline {
+   clear:left;
+}
+div.stattag {
+   float:left;
+}
+
+div.statval {
+   float: right;
+}
+
+#formtest td {
+   font-size: 1.0em;
+}
+
+#formtest select {
+   width: 150px;
+   margin-bottom: 1em;
+}
+
+#formout pre {
+   color: #000;
+   font-family: 'Courier New',Courier,Freemono,'Nimbus Mono L',monospace;
+   font-size: 0.8em;
+}
+
+#formtest button, #formtest input[type=reset] {
+   margin-bottom: 5px;
+   width: 80px;
+}
+
+#profdata {
+}
+button.stop {
+   font-size: 0.8em;
+   padding: 0px;
+   float:right;
+   margin-top: 5px;
+}
+
+span.infotagP {
+   float:left;
+   font-size: 14px;
+   width: 95px;
+   height:14px;
+   border-right: 1px solid #777;
+}
+div.imgwrap {
+   width: 170px;
+   display: inline;
+   float: right;
+   border-right: 1px solid #777;
+}
+img.infodataP {
+   float: left;
+   margin: 2px;
+   height: 10px;
+}
+span.infotag {
+   float:left;
+}
+span.infodata {
+   float:right;
+}
+p.infodata {
+   clear:both;
+}
+#menuarea p.prod {
+   font-weight: bold;
+   margin:0px 10px 0px 0px;
+   font-size: 1.1em;
+}
+#menuarea ul.prod {
+   margin:0 0 0 10px;
+   font-size: 1.1em;
+   display: none;
+}
+#outarea {
+   width: 97%;
+   height: 20em;
+   font-family: 'Courier New',Courier,Freemono,'Nimbus Mono L',monospace;
+   font-size: 14px;
+}
+#desarea {
+   border: 0;
+   width: 95%;
+}
+#cmdarea {
+   width: 95%;
+}
+
+#bufferinfo .size {
+   display: inline-block;
+   width: 4em;
+   float: left;
+}
+#bufferinfo .data {
+   display: inline-block;
+   width: 4em;
+   text-align: right;
+}
