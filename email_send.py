@@ -44,7 +44,7 @@ part2 = MIMEText(html, 'html')
 msg.attach(part2)
 print "Mailid's :", sys.argv[1:]
 # Send the message via local SMTP server.
-s = smtplib.SMTP('10.35.178.56')
+s = smtplib.SMTP('10.xx.xx.xx')
 # sendmail function takes 3 arguments: sender's address, recipient's address
 # and message to send - here it is sent as one string.
 s.sendmail(admin, recipients, msg.as_string())
