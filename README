@@ -15,12 +15,12 @@ copy : Run applicaiton
 setp2: Building blocks of the application 
 
     'Git_setup' : 
-                git@gitlab.pgre.dell.com:BDCPGRE/hardware-tracking.git'
+                 xxx hardware-tracking.git'
                 'chmod 777 *'
                 'cp -r htdocs/* /opt/lampp/htdocs/'
                 'sudo -S /opt/lampp/xampp restart'
     'M-Track Access':
-                'find /home/dell/Downloads/ -name "PartSearchResul*.xls" -type f -delete' 
+                'find /home/Downloads/ -name "PartSearch*.xls" -type f -delete' 
                 'python hardware_selenium.py $Employee_nameS'
     'Mysql Database Setup'
                 python backend.py'
