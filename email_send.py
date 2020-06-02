@@ -14,7 +14,7 @@ with open('coverage_email.html', 'r') as f:
 	con = f.read()
 
 
-admin = 'BDC_Build_Team@dellteam.com'
+admin = 'BDC_Build_Team@test.com'
 msg = MIMEMultipart('alternative')
 
 
@@ -23,7 +23,7 @@ arguments = sys.argv[1:]
 #recipients = ['venkata_narayana_red@dellteam.com', 'rami_karri@dellteam.com', 'jafar_sadiq_shaik@dellteam.com', 'ramesh_shirwal@dellteam.com', 'Satish_Kumar_M@DellTeam.com
 recipients = arguments #venkata_narayana_red@dellteam.com
 
-msg['Subject'] = "Missing Hardware Tracker location BCD-Build-Team Automation"
+msg['Subject'] = "Missing Hardware Tracker location "
 msg['From'] = admin
 #msg['To'] = ", ".join(recipients)
 
