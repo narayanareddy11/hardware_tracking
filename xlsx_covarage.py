@@ -1,11 +1,11 @@
-#!/home/dell/selinum/env/bin/python
+#!/home/selinum/env/bin/python
 """
 Read complete database and convert to .xlsx
 
 Inputs:
     - mysql test databse
 oOutput:
-    - PartSearchResult_buildteam.xlsx
+    - build.xlsx
 """
 from openpyxl.compat import range
 from openpyxl.styles import Border, Side, PatternFill, Font, GradientFill, Alignment
