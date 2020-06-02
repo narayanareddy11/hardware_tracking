@@ -75,7 +75,7 @@ def hardware_automation():
             driver.execute_script("arguments[0].click();", myElement4);
             break
         except:
-            print "update checkbox  click yyyyyyyyyyyyyyyyyyy        not working \n"
+            print "update checkbox  click         not working \n"
             time.sleep(15)
     time.sleep(4)
     for loop1 in range(20):  # update checkbox  click
@@ -86,7 +86,7 @@ def hardware_automation():
             driver.execute_script("arguments[0].click();", myElement44);
             break
         except:
-            print "update checkbox  click yyyyyyyyyyyy11111111111yyyyyyy        not working \n"
+            print "update checkbox  click         not working \n"
             time.sleep(15)
     myElement44.send_keys(sys.argv[1])
     time.sleep(2)
@@ -99,7 +99,7 @@ def hardware_automation():
                 driver.execute_script("arguments[0].click();", myElement9);
                 break
             except:
-                print "update checkbox  click yyyyyyyyyyyy11111111111yyyyyyy        not working \n"
+                print "update checkbox  click         not working \n"
                 time.sleep(15)
         time.sleep(3)
         for loop1 in range(20):  # update checkbox  click
@@ -121,7 +121,7 @@ def hardware_automation():
             driver.execute_script("arguments[0].click();", myElement9);
             break
         except:
-            print "update checkbox  click yyyyyyyyyyyy11111111111yyyyyyy        not working \n"
+            print "update checkbox  click         not working \n"
             time.sleep(15)
     time.sleep(5)
     for loop1 in range(20):  # update checkbox  click
@@ -131,7 +131,7 @@ def hardware_automation():
             driver.execute_script("arguments[0].click();", myElement9);
             break
         except:
-            print "update checkbox  click yyyyyyyyyyyy11111111111yyyyyyy        not working \n"
+            print "update checkbox  click         not working \n"
             time.sleep(15)
     time.sleep(5)
     for loop1 in range(20):  # update checkbox  click
@@ -141,7 +141,7 @@ def hardware_automation():
             driver.execute_script("arguments[0].click();", myElement9);
             break
         except:
-            print "update checkbox  click yyyyyyyyyyyy11111111111yyyyyyy        not working \n"
+            print "update checkbox  click         not working \n"
             time.sleep(15)
     time.sleep(5)
     for loop1 in range(20):  # update checkbox  click
@@ -151,7 +151,7 @@ def hardware_automation():
             driver.execute_script("arguments[0].click();", myElement9);
             break
         except:
-            print "update checkbox  click yyyyyyyyyyyy11111111111yyyyyyy        not working \n"
+            print "update checkbox  click         not working \n"
             time.sleep(15)
     time.sleep(6)
     driver.close()
