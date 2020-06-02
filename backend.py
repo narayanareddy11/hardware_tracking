@@ -1,6 +1,6 @@
 #! /usr/bin/python
 """
-Convert PartSearchResult.xls to ganarated.csv
+Convert build.xls to ganarated.csv
 Check the no of entrys in database
 
 Inputs:
