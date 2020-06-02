@@ -17,7 +17,7 @@ def analytics_xls_cvs():
 	ff = open('database_add.txt', 'w')
 	num = 0
 	try:
-		sub_csv = subprocess.check_output('cp -r /home/dell/Downloads/PartSearchResult.xls ganarated.csv', shell=True)
+		sub_csv = subprocess.check_output('cp -r /home/Downloads/PartSearchResult.xls ganarated.csv', shell=True)
 		time.sleep(0.3)
 	except:
 		print "PartSearchResult file is not found in Download directory"
